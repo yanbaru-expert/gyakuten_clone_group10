@@ -19,7 +19,8 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module GyakutenCloneGroup9
+#module GyakutenCloneGroup9 #group10に変更
+module GyakutenCloneGroup10
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
