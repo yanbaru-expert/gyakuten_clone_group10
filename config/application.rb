@@ -1,6 +1,6 @@
 require_relative 'boot'
 
-require "rails"
+require "rails/all"
 # Pick the frameworks you want:
 require "active_model/railtie"
 require "active_job/railtie"
@@ -19,6 +19,9 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+
+
+
 #module GyakutenCloneGroup9 #group10に変更
 module GyakutenCloneGroup10
   class Application < Rails::Application
@@ -32,5 +35,7 @@ module GyakutenCloneGroup10
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+        # タスク４　以下の表記で管理画面を日本語化することができる
+    config.i18n.default_locale = :ja
   end
 end
