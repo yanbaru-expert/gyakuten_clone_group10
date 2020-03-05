@@ -48,3 +48,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #rename追加
 gem 'rename'
+
+#タスク４追加
+gem 'activeadmin'
+gem 'devise'
+gem 'rails-i18n'
