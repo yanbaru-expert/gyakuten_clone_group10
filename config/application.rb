@@ -20,8 +20,6 @@ require "sprockets/railtie"
 Bundler.require(*Rails.groups)
 
 
-
-
 #module GyakutenCloneGroup9 #group10に変更
 module GyakutenCloneGroup10
   class Application < Rails::Application
