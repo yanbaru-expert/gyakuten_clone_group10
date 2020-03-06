@@ -20,3 +20,6 @@ require("channels")
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+
+//タスク６追加
+require("bootstrap/dist/js/bootstrap")
