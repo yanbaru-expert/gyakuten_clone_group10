@@ -53,7 +53,3 @@ gem 'rename'
 gem 'activeadmin'
 gem 'devise'
 gem 'rails-i18n'
-
-#タスク6追加
-gem 'bootstrap', '~> 4.1.1'
-gem 'jquery-rails'
