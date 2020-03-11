@@ -10,7 +10,7 @@ namespace :importcsv do
         url: row["url"]
       }
     end
-    Movie.create(list)
+    Movie.create!(list)
   end
 
 
