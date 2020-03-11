@@ -1,3 +1,22 @@
-<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-    Tooltip on top
-</button>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="members.scss" type="text/css">
+</head>
+
+<body>
+  <% @movies.each do |movie| %>
+    <div class="youtube-title"><%= movie.title %></div>
+    <% iframe = content_tag(
+      :iframe,
+      '', # empty body
+      width: 560,
+      height: 315,
+      src: movie.url,
+      frameborder: 0,
+      allowfullscreen: true
+      ) %>
+    <%= content_tag(:div, iframe, class: 'youtube-container') %>
+  <% end %>
+
+</body>
