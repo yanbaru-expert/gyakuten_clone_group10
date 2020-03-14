@@ -53,3 +53,8 @@ gem 'rename'
 gem 'activeadmin'
 gem 'devise'
 gem 'rails-i18n'
+
+#タスク8追加 devise日本語化
+gem 'devise-i18n'
+#タスク8追加 Bootstrap ログインバーが長くなり、ログインボタンが青になる
+gem 'devise-bootstrap-views', '~> 1.0'
