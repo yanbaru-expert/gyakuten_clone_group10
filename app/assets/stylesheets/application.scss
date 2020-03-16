@@ -15,3 +15,28 @@ a.nav-link {font-size: 125%; margin-right: 15px;}
   text-align: center;
   margin-bottom: 65px;
 }
+
+.question{
+  position:relative;
+  width:700px;
+  height:125px;
+  background-color:#ffffff;
+  border:2px solid #000000;
+  border-radius: 10px;/*角の丸み*/
+  font-size: 22px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  line-height: 45px;
+  border-color: black;
+  transform: translateY(5px);
+  -webkit-transition-duration: .4s;
+  -webkit-transition-timing-function:ease;
+}
+
+.question:hover{
+  border-color: steelblue;
+  transform: translateY(-5px);
+  -webkit-transition-duration: .4s;
+  -webkit-transition-timing-function:ease;
+}
