@@ -1,0 +1,7 @@
+<% @questions.each do |question| %>
+<div class="question" >
+  <%= question.title.truncate(30) %><br>
+  <%= question.detail.truncate(20) %><br>
+</div>
+
+<% end %>
