@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   root to: 'movies#index'
-  get "questions" => "questions#index"
+  resources :questions
 end
