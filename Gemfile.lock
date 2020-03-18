@@ -194,6 +194,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redcarpet (3.5.0)
     rename (1.0.6)
       activesupport
       rails (>= 3.0.0)
@@ -256,13 +257,13 @@ DEPENDENCIES
   byebug
   devise
   jbuilder (~> 2.7)
-  kaminari
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.1)
   rails-i18n
+  redcarpet
   rename
   sass-rails (>= 6)
   spring
