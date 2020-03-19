@@ -1,7 +1,8 @@
 <% @questions.each do |question| %>
-<div class="question" >
-  <%= question.title.truncate(30) %><br>
-  <%= question.detail.truncate(20) %><br>
-</div>
-
+  <%= link_to( question_path(question), class: 'list-question') do %>
+  <div class="question">
+    <%= question.title.truncate(30) %><br>
+    <%= question.detail.truncate(20) %><br>
+  </div>
+  <% end %>
 <% end %>

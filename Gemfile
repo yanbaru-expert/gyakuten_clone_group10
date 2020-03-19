@@ -56,3 +56,4 @@ gem 'rails-i18n'
 
 #タスク15追加
 gem 'redcarpet'
+gem 'coderay'
