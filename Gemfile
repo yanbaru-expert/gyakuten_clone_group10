@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
@@ -56,5 +56,11 @@ gem 'rails-i18n'
 
 #タスク8追加 devise日本語化
 gem 'devise-i18n'
-#タスク8追加 Bootstrap ログインバーが長くなり、ログインボタンが青になる
-gem 'devise-bootstrap-views', '~> 1.0'
+
+#タスク8追加
+#不要
+#gem 'devise-bootstrap-views', '~> 1.0'
+
+#タスク8追加 bootstrap
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
