@@ -17,7 +17,6 @@ a.nav-link {font-size: 125%; margin-right: 15px;}
 }
 
 .question{
-  width:700px;
   height:140px;
   background-color:#ffffff;
   border:2px solid #000000;
@@ -69,7 +68,11 @@ hr { width: 710px; }
     border: solid 1px #000000;
 }
 
-.list-question{
+.base-container{
   width:700px;
-  height:140px;
+  margin: auto;
+}
+
+.pagination {
+  justify-content: center;
 }
