@@ -53,3 +53,6 @@ gem 'rename'
 gem 'activeadmin'
 gem 'devise'
 gem 'rails-i18n'
+
+#タスク12追加
+gem 'kaminari'
