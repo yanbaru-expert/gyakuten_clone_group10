@@ -56,3 +56,7 @@ gem 'rails-i18n'
 
 #タスク12追加
 gem 'kaminari'
+
+#タスク15追加
+gem 'redcarpet'
+gem 'coderay'

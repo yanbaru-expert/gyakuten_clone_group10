@@ -17,8 +17,6 @@ a.nav-link {font-size: 125%; margin-right: 15px;}
 }
 
 .question{
-  position:relative;
-  width:700px;
   height:140px;
   background-color:#ffffff;
   border:2px solid #000000;
@@ -33,6 +31,7 @@ a.nav-link {font-size: 125%; margin-right: 15px;}
   -webkit-transition-duration: .4s;
   -webkit-transition-timing-function:ease;
   padding: 10px;
+  color: black;
 }
 
 .question:hover{
@@ -40,6 +39,38 @@ a.nav-link {font-size: 125%; margin-right: 15px;}
   transform: translateY(-3px);
   -webkit-transition-duration: .4s;
   -webkit-transition-timing-function:ease;
+}
+
+h3 { font-size: 120%; }
+hr { width: 710px; }
+
+.title{
+  padding-top: 80px;
+  width: 710px;
+  text-align: left;
+  font-size: 17px;
+  line-height: 30px;
+  margin:0 auto
+}
+
+.detail{
+  padding-top: 40px;
+  width: 710px;
+  font-size: 17px;
+  line-height: 30px;
+  margin: auto;
+}
+
+.code {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-size: 20px;
+    border: solid 1px #000000;
+}
+
+.base-container{
+  width:700px;
+  margin: auto;
 }
 
 .pagination {
