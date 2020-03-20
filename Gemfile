@@ -54,6 +54,13 @@ gem 'activeadmin'
 gem 'devise'
 gem 'rails-i18n'
 
+#タスク12追加
+gem 'kaminari'
+
+#タスク15追加
+gem 'redcarpet'
+gem 'coderay'
+
 #タスク8追加 devise日本語化
 gem 'devise-i18n'
 
