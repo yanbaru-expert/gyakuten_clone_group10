@@ -67,7 +67,3 @@ gem 'devise-i18n'
 #タスク8追加
 #不要
 #gem 'devise-bootstrap-views', '~> 1.0'
-
-#タスク8追加 bootstrap
-gem 'bootstrap', '~> 4.3.1'
-gem 'jquery-rails'
