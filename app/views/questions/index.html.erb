@@ -1,4 +1,12 @@
 <div class="base-container">
+
+  <%= render 'shared/flash' %>
+
+  <div>
+    <h2 class="text-left pt-5">新規投稿</h2>
+    <%= render 'questions/form' %>
+  </div>
+
   <% @questions.each do |question| %>
     <%= link_to( question_path(question), class: 'list-question') do %>
     <div class="question">
