@@ -21,7 +21,8 @@ before_action :authenticate_user!
 
     # インスタンスの保存に失敗した場合
     else
-      flash.now[:dangar] = "質問の登録に失敗しました。"
+      flash.now[:danger] = "質問の登録に失敗しました。"
+      @questions = Question.all.order(id: "DESC")
       render :index
     end
   end
