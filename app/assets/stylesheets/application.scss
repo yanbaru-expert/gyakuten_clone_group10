@@ -1,10 +1,28 @@
-
 //タスク６追加
 @import "bootstrap/scss/bootstrap";
 
 a { text-decoration: none !important; }
 a.navbar-brand {font-size: 187%; margin-right: 21px;}
 a.nav-link {font-size: 125%; margin-right: 15px;}
+
+//タスク８追加
+// ログイン画面
+
+.container-login {
+  @extend .container-fluid;
+  max-width: 576px;
+  padding: 2rem;
+}
+
+// 「ログインしました」などのフラッシュ用スタイル
+
+.alert-notice {
+  @extend .alert-info;
+}
+
+.alert-alert {
+  @extend .alert-danger;
+}
 
 .youtube-title {
   text-align: center;

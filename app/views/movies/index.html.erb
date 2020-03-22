@@ -1,3 +1,5 @@
+<%= render 'shared/flash_messages' %>
+
 <% @movies.each do |movie| %>
   <div class="youtube-title"><%= movie.title %></div>
   <% iframe = content_tag(
