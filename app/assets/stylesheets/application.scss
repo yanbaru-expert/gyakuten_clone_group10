@@ -111,9 +111,11 @@ hr { width: 710px; }
   border-color: silver;
 }
 
+// ボタンサイズ
 .btn {
   margin: auto;
-  width: 700px;
+  max-width: 576px;
+  //width: 700px;
 }
 
 .flash {
