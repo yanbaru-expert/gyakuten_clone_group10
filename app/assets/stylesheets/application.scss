@@ -130,3 +130,22 @@ hr { width: 710px; }
   color: red;
   background-color:#FFDDFF;
 }
+
+.awstitle {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.list-group {
+  margin: auto;
+  width: 700px;
+  margin-top: 50px;
+}
+
+.list-group-item-primary {
+  font-weight: bold;
+}
+
+.list-group-item:nth-child(even) {
+	background: #eee;
+}
