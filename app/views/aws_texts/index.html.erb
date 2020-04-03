@@ -1,9 +1,8 @@
-
-<ul class="list-group">
-<h2 class="awstitle">AWS講座</h2>
-<p>注意！！！：AWSのEC2やRDSは有料サービスとなります。無駄な料金を請求されないためにも、不要なインスタンスは停止・削除をしてください。</p>
-<li class="list-group-item list-group-item-primary active">No.　　　　　　内容</li>
+<table class="awstable table">
+<center><h2 class="awstitle">AWS講座</h2></center>
+<p class="awscaution">注意！！！：AWSのEC2やRDSは有料サービスとなります。無駄な料金を請求されないためにも、不要なインスタンスは停止・削除をしてください。</p>
+<tr class="list-group-item-primary bg-primary"><th>No.</th><th>内容</th></tr>
 <% @awstexts.each do |awstext| %>
-<li class="list-group-item"><%= awstext.content %>　　　　　　<%= awstext.title %></li>
+<tr class="awslist"><th><%= awstext.id %></th><th><%= awstext.title %></th></tr>
 <% end %>
-</ul>
+</table>
