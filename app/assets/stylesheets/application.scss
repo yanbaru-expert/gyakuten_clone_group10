@@ -130,3 +130,30 @@ hr { width: 710px; }
   color: red;
   background-color:#FFDDFF;
 }
+
+.awstitle {
+  width: 700px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.awstable {
+  margin: auto;
+  width: 700px;
+}
+
+.awscaution {
+  margin: auto;
+  width: 700px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.list-group-item-primary {
+  font-weight: bold;
+  color: white;
+}
+
+.awslist:nth-child(even) {
+	background: #eee;
+}

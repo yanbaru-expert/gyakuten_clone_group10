@@ -13,17 +13,30 @@ namespace :importcsv do
     Movie.create!(list)
   end
 
-    desc "Import Question Csv Data"
+  desc "Import Question Csv Data"
 
-    task question: :environment do
-      list = []
-      CSV.foreach('db/csv_data/question_data.csv', headers: true) do |row|
-        list << {
-          title: row["title"],
-          detail: row["detail"]
-        }
-      end
-      Question.create!(list)
+  task question: :environment do
+    list = []
+    CSV.foreach('db/csv_data/question_data.csv', headers: true) do |row|
+      list << {
+        title: row["title"],
+        detail: row["detail"]
+      }
     end
+    Question.create!(list)
+  end
+
+  desc "Import AwsText Csv Data"
+
+  task awstext: :environment do
+    list = []
+    CSV.foreach('db/csv_data/aws_text_data.csv', headers: true) do |row|
+      list << {
+        title: row["title"],
+        content: row["content"]
+      }
+    end
+    AwsText.create!(list)
+  end
 
 end
