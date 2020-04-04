@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_01_213135) do
+ActiveRecord::Schema.define(version: 2020_04_04_061409) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -43,17 +43,9 @@ ActiveRecord::Schema.define(version: 2020_04_01_213135) do
 
   create_table "aws_texts", force: :cascade do |t|
     t.string "title"
-    t.integer "content"
+    t.string "content"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "lines", force: :cascade do |t|
-    t.string "title"
-    t.string "detail"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.string "genre"
   end
 
   create_table "movies", force: :cascade do |t|
@@ -71,7 +63,7 @@ ActiveRecord::Schema.define(version: 2020_04_01_213135) do
   end
 
   create_table "solutions", force: :cascade do |t|
-    t.string "solution", null: false
+    t.string "solution"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
