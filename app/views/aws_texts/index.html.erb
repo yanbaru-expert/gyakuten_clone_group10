@@ -2,7 +2,7 @@
 <center><h2 class="awstitle">AWS講座</h2></center>
 <p class="awscaution">注意！！！：AWSのEC2やRDSは有料サービスとなります。無駄な料金を請求されないためにも、不要なインスタンスは停止・削除をしてください。</p>
 <tr class="list-group-item-primary bg-primary"><th>No.</th><th>内容</th></tr>
-<% @awstexts.each_with_index do |awstext, i| %>
-<tr class="awslist"><td><%= i+1 %></td><td><%= awstext.title %></td></tr>
+<% @awstexts.each.with_index(1) do |awstext, i| %>
+<tr class="awslist"><td><%= i %></td><td><%= awstext.title %></td></tr>
 <% end %>
 </table>
