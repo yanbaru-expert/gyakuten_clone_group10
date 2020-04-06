@@ -96,6 +96,7 @@ hr { width: 710px; }
 .base-container{
   width:700px;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .pagination {
@@ -144,11 +145,6 @@ hr { width: 710px; }
   margin-bottom: 20px;
 }
 
-.awstable {
-  margin: auto;
-  width: 700px;
-}
-
 .awscaution {
   margin: auto;
   width: 700px;
@@ -166,8 +162,6 @@ hr { width: 710px; }
 }
 
 .awscontent {
-  margin: auto;
-  width: 700px;
   line-height: 30px;
   margin-top: 30px;
 }

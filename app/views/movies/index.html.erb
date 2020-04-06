@@ -1,5 +1,6 @@
 <%= render 'shared/flash_messages' %>
 
+<div class="base-container">
 <% @movies.each do |movie| %>
   <div class="youtube-title"><%= movie.title %></div>
   <% iframe = content_tag(
@@ -14,3 +15,4 @@
   <%= content_tag(:div, iframe, class: 'youtube-container') %>
 <% end %>
 <%= paginate @movies %>
+</div>
