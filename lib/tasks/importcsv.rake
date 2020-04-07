@@ -39,4 +39,18 @@ namespace :importcsv do
     AwsText.create!(list)
   end
 
+  desc "Import Line Csv Data"
+
+  task line: :environment do
+    list = []
+    CSV.foreach('db/csv_data/line_data.csv', headers: true) do |row|
+      list << {
+        genre: row["genre"],
+        title: row["title"],
+        content: row["content"]
+      }
+    end
+    Line.create!(list)
+  end
+
 end

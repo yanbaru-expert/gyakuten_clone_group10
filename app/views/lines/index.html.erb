@@ -1,0 +1,10 @@
+<table class="base-container table">
+<center><h2 class="listtitle text-success">LINE@</h2></center>
+<tr class="list-group-item-primary bg-success"><th>No.</th><th>ジャンル</th><th>内容</th></tr>
+<% @lines.each.with_index(1) do |line, i| %>
+<tr class="listindex">
+  <td><%= i %></td>
+  <td><%= line.genre %>
+  <td><%= link_to( line_path(line), target: :_blank) do %><%= line.title %><% end %></td></tr>
+<% end %>
+</table>
