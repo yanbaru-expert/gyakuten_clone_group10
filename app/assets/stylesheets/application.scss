@@ -1,9 +1,16 @@
 //タスク６追加
 @import "bootstrap/scss/bootstrap";
 
-a { text-decoration: none !important; }
-a.navbar-brand {font-size: 187%; margin-right: 21px;}
-a.nav-link {font-size: 125%; margin-right: 15px;}
+a.navbar-brand {
+  text-decoration: none !important;
+  font-size: 187%;
+  margin-right: 21px;
+}
+
+a.nav-link {
+  font-size: 125%;
+  margin-right: 15px;
+}
 
 //タスク８追加
 // ログイン画面
@@ -89,6 +96,7 @@ hr { width: 710px; }
 .base-container{
   width:700px;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .pagination {
@@ -137,11 +145,6 @@ hr { width: 710px; }
   margin-bottom: 20px;
 }
 
-.awstable {
-  margin: auto;
-  width: 700px;
-}
-
 .awscaution {
   margin: auto;
   width: 700px;
@@ -159,8 +162,6 @@ hr { width: 710px; }
 }
 
 .awscontent {
-  margin: auto;
-  width: 700px;
   line-height: 30px;
   margin-top: 30px;
 }
@@ -173,4 +174,18 @@ hr { width: 710px; }
   font-size: 30px;
   font-weight: bold;
   margin-top: 30px;
+}
+
+// footer
+.footer {
+  text-align: center;
+  line-height:50px;
+  width: 100%;
+  min-height: 50px;
+}
+
+a.ftext {
+  font-size: 125%;
+  color: white;
+  margin-right: 40px;
 }
