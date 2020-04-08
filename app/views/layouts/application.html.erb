@@ -12,13 +12,8 @@
   </head>
 
   <body>
-    <% unless request.path.include?("line") %>
-      <%= render 'shared/header' %>
-      <%= render 'shared/footer' %>
-    <% else %>
-      <%= render 'shared/lineheader' %>
-      <%= render 'shared/linefooter' %>
-    <% end %>
+    <%= render 'shared/header' %>
+    <%= render 'shared/footer' %>
     <%= yield %>
   </body>
 </html>
