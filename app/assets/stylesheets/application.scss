@@ -139,7 +139,7 @@ hr { width: 710px; }
   background-color:#FFDDFF;
 }
 
-.awstitle {
+.listtitle {
   width: 700px;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -157,20 +157,20 @@ hr { width: 710px; }
   color: white;
 }
 
-.awslist:nth-child(even) {
+.listindex:nth-child(even) {
 	background: #eee;
 }
 
-.awscontent {
+.listcontent {
   line-height: 30px;
   margin-top: 30px;
 }
 
-.awscontent h2{
+.listcontent h2{
   font-weight: bold;
 }
 
-.awscontent h3{
+.listcontent h3{
   font-size: 30px;
   font-weight: bold;
   margin-top: 30px;
@@ -188,4 +188,13 @@ a.ftext {
   font-size: 125%;
   color: white;
   margin-right: 40px;
+}
+
+.line-container {
+  margin: auto;
+  font-size: 105%;
+  width: 440px;
+  margin-top: 80px;
+  line-height: 50px;
+  margin-bottom: 100px;
 }
