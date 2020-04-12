@@ -6,6 +6,7 @@ namespace :importcsv do
     list = []
     CSV.foreach('db/csv_data/movie_data.csv', headers: true) do |row|
       list << {
+        genre: row["genre"],
         title: row["title"],
         url: row["url"]
       }
