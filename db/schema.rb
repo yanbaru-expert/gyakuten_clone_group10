@@ -56,8 +56,8 @@ ActiveRecord::Schema.define(version: 2020_04_04_061409) do
   end
 
   create_table "questions", force: :cascade do |t|
-    t.string "title", null: false
-    t.string "detail", null: false
+    t.string "title"
+    t.string "detail"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

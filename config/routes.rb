@@ -3,6 +3,12 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   root to: 'movies#index'
-  resources :questions
+
+  #回答追加
+  resources :questions, only: [:index, :show, :create, :edit, :update]
+  resources :questions do
+    resource :solutions, only: [:create]
+
   resources :aws_texts
+  end
 end
