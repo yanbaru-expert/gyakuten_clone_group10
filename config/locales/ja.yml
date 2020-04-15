@@ -31,7 +31,7 @@ ja:
         remember_me: 次回から自動的にログイン
       question:
         solutions: 回答
-        details: 詳細
+        detail: 詳細
         solution: 回答
         count: 閲覧回数
       solution:

@@ -11,8 +11,8 @@ before_action :ensure_correct_user, only: [:edit, :update]
 
   def show
     @question = Question.find(params[:id])
-    #@solutions = Solution.where(question_id: @question.id)
-    #@solution = @question.solutions.new
+    @solutions = Solution.where(question_id: @question.id)
+    @solution = @question.solutions.new
   end
 
   def create

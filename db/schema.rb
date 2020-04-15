@@ -56,14 +56,17 @@ ActiveRecord::Schema.define(version: 2020_04_04_061409) do
   end
 
   create_table "questions", force: :cascade do |t|
-    t.string "title"
-    t.string "detail"
+    t.string "title", null: false
+    t.string "detail", null: false
+    t.text "solution"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "solutions", force: :cascade do |t|
     t.string "solution"
+    t.integer "question_id", null: false
+    t.text "content", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
