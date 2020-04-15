@@ -1,5 +1,16 @@
 namespace :importcsv do
 
+require 'import.rb'
+
+  desc "Import All CSV Data"
+
+  task all: :environment do
+    Movie.create!(Import.csv_data(path: 'db/csv_data/movie_data.csv'))
+    Question.create!(Import.csv_data(path: 'db/csv_data/question_data.csv'))
+    AwsText.create!(Import.csv_data(path: 'db/csv_data/aws_text_data.csv'))
+    Line.create!(Import.csv_data(path: 'db/csv_data/line_data.csv'))
+  end
+
   desc "Import Movie Csv Data"
 
   task movie: :environment do
