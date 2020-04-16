@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   resources :questions
   resources :aws_texts
   resources :lines
+  resources :texts
 end

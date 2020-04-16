@@ -11,12 +11,14 @@ require 'import.rb'
     Question.destroy_all
     AwsText.destroy_all
     Line.destroy_all
+    Text.destroy_all
 
     # レコードの登録
     Movie.create!(Import.csv_data(path: 'db/csv_data/movie_data.csv'))
     Question.create!(Import.csv_data(path: 'db/csv_data/question_data.csv'))
     AwsText.create!(Import.csv_data(path: 'db/csv_data/aws_text_data.csv'))
     Line.create!(Import.csv_data(path: 'db/csv_data/line_data.csv'))
+    Text.create!(Import.csv_data(path: 'db/csv_data/text_data.csv'))
   end
 
   desc "Import Movie Csv Data"
@@ -47,4 +49,10 @@ require 'import.rb'
     Line.create!(Import.csv_data(path: 'db/csv_data/line_data.csv'))
   end
 
+  desc "Import Text Csv Data"
+
+  task text: :environment do
+    Text.destroy_all
+    Text.create!(Import.csv_data(path: 'db/csv_data/text_data.csv'))
+  end
 end

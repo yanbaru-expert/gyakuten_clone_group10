@@ -1,0 +1,5 @@
+<div class="textdetail-container">
+  <% text = @text.detail %>
+  <%= markdown(text).html_safe %>
+  <%= rails_social_share_button_tag(@title) %>
+</div>
