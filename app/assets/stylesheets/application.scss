@@ -1,6 +1,5 @@
 //タスク６追加
 @import "bootstrap/scss/bootstrap";
-//@import "rails-social-share-button"; SyntaxErrorが発生するため保留
 
 a.navbar-brand {
   text-decoration: none !important;
@@ -258,10 +257,8 @@ a.ftext {
   font-weight: bold;
 }
 
-.rails-social-share-button {
-  .ssb-icon {
-    background-size: 24px 24px;
-    height: 24px;
-    width: 24px;
-  }
+.icon{
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
 }

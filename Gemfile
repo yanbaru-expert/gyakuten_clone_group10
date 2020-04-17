@@ -67,6 +67,3 @@ gem 'devise-i18n'
 #タスク8追加
 #不要
 #gem 'devise-bootstrap-views', '~> 1.0'
-
-#シェアボタン設置
-gem 'rails-social-share-button'

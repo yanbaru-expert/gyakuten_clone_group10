@@ -1,5 +1,6 @@
 <div class="textdetail-container">
   <% text = @text.detail %>
   <%= markdown(text).html_safe %>
-  <%= rails_social_share_button_tag(@title) %>
+  <a href="https://twitter.com/share?url=<%= request.url %>&text=<%= @text.title %>" rel="nofollow" target="_blank"><%= image_tag "Twitter_Social_Icon_Square_Color.png", class: "icon" %></a>
+  <a href="https://www.facebook.com/share.php?url=<%= request.url %>&text=<%= @text.title %>" rel="nofollow" target="_blank"><%= image_tag "f_logo_RGB-Blue_58.png", class: "icon" %></a>
 </div>
