@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top" style="background-color: #c22a1f">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top <%= bg_color %>" style="background-color: #c22a1f">
   <a class="navbar-brand" href="#">Gyakuten</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,11 +9,11 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Rails
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="nav-item nav-link active text-danger select" href="/users/sign_in">動画教材</a>
-          <a class="nav-item nav-link active text-danger select" href="#">テキスト教材</a>
-          <a class="nav-item nav-link active text-danger select" href="#">ライブコーディング</a>
-          <a class="nav-item nav-link active text-danger select" href="/questions">質問集</a>
+        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+          <a class="nav-item nav-link active select <%= text_color %>" href="/movies?genre=movie">動画教材</a>
+          <a class="nav-item nav-link active select <%= text_color %>" href="/texts">テキスト教材</a>
+          <a class="nav-item nav-link active select <%= text_color %>" href="/movies?genre=live">ライブコーディング</a>
+          <a class="nav-item nav-link active select <%= text_color %>" href="/questions">質問集</a>
         </div>
       </li>
 
@@ -21,22 +21,22 @@
         <a class="nav-link" href="/aws_texts">AWS講座</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">PHP講座</a>
+        <a class="nav-link" href="/movies?genre=php">PHP講座</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">対談</a>
+        <a class="nav-link" href="/movies?genre=talk">対談</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">情報発信</a>
+        <a class="nav-link" href="/movies?genre=marketing">情報発信</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">動画編集講座</a>
+        <a class="nav-link" href="/movies?genre=edit">動画編集講座</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">ライティング講座</a>
+        <a class="nav-link" href="/movies?genre=writing">ライティング講座</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">LINE@</a>
+        <a class="nav-link" href="/lines">LINE@</a>
       </li>
         <% if user_signed_in? %>
           <li class="nav-item">

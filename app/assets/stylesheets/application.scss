@@ -189,3 +189,7 @@ a.ftext {
   color: white;
   margin-right: 40px;
 }
+@media screen and (min-width:992px){
+  @import "questions";
+  @import "contents";
+}

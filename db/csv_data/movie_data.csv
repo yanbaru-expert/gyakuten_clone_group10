@@ -1,26 +1,43 @@
-title,url
-【本質】プログラミング学習で初心者が本当に学ぶべきこと,https://www.youtube.com/embed/FdI9w8O15xs
-プログラミング学習でモチベーションを下げない方法,https://www.youtube.com/embed/qH32Bv4uCWo
-プログラマーへの転職を成功させるために僕が実践したSNS・ブログの活用法,https://www.youtube.com/embed/ZmYaLc3tjxw
-アラサーからプログラマーになりたいなら捨てる勇気を持とう,https://www.youtube.com/embed/cflR0aDGgmU
-【まずはここを目指せ】プログラミングスキルを活用して個人で月10万稼ぐ方法,https://www.youtube.com/embed/Ehpl7qCag_0
-プログラミングは応用力が命,https://www.youtube.com/embed/crhpV_5eCLg
-上司の言うことだけを聞いていても決して稼げるようにはならない理由,https://www.youtube.com/embed/GQ81KMGD52Q
-プログラマーになるためにポートフォリオは必要なのか？？,https://www.youtube.com/embed/8fDQXlO7a2U
-アラサーの僕が実務経験1年でフリーランスエンジニアとして独立できた理由,https://www.youtube.com/embed/Yawrrgcvg5Y
-ITスキルを身につけると人生の自由度が上がる理由,https://www.youtube.com/embed/pIjZ51xajkA
-「まずは副業からやりたい」というプログラミング初心者に言いたいこと,https://www.youtube.com/embed/WuHr7lXA5ck
-テストを意識した開発をしよう！,https://www.youtube.com/embed/bqpOaNMjyGM
-プログラミング初心者は「転職」にこだわる必要はないと思う,https://www.youtube.com/embed/REarzWz5310
-アラサーがプログラマー転職の面接で必ず聞かれる質問とその対策,https://www.youtube.com/embed/p_8ZeMsiol0
-アラサーからプログラマーに転職するのは何も特別なことではない,https://www.youtube.com/embed/=ZzAOf0EFYwg
-アラサーがプログラマーに転職したい理由堂々の第1位,https://www.youtube.com/embed/yrg4gTOisbg
-プログラマー転職の面接をイージーモードに変える方法,https://www.youtube.com/embed/JB5Qr2-76ZU
-一人でプログラミングやってて楽しいですか？,https://www.youtube.com/embed/FpljmPi8v4o
-プログラミングの挫折を防ぐのは簡単,https://www.youtube.com/embed/FO7nZcj1-3U
-【Ruby基礎】初心者必見！！！遅咲プログラマーの好きな食べ物を判定するプログラムの作り方,https://www.youtube.com/embed/-hhjtDmN5xg
-【Ruby基礎】引数にデフォルト値を設定すると処理が柔軟になる,https://www.youtube.com/embed/iR857qDUMy8
-【Ruby基礎】Railsでも使用するprivateの使い方,https://www.youtube.com/embed/XNk80CL6CJE
-【Ruby基礎】インスタンス変数とは,https://www.youtube.com/embed/5tXUSOkih-0
-【Ruby基礎】ifとunlessの使い分けについて,https://www.youtube.com/embed/ELGyMObkyIg
-【Ruby基礎】初心者が混乱しやすいハッシュの色んな書き方,https://www.youtube.com/embed/opAIvKfo9EM
+genre,title,url
+movie,【本質】プログラミング学習で初心者が本当に学ぶべきこと,https://www.youtube.com/embed/FdI9w8O15xs
+movie,プログラミング学習でモチベーションを下げない方法,https://www.youtube.com/embed/qH32Bv4uCWo
+movie,プログラマーへの転職を成功させるために僕が実践したSNS・ブログの活用法,https://www.youtube.com/embed/ZmYaLc3tjxw
+movie,アラサーからプログラマーになりたいなら捨てる勇気を持とう,https://www.youtube.com/embed/cflR0aDGgmU
+movie,【まずはここを目指せ】プログラミングスキルを活用して個人で月10万稼ぐ方法,https://www.youtube.com/embed/Ehpl7qCag_0
+movie,プログラミングは応用力が命,https://www.youtube.com/embed/crhpV_5eCLg
+movie,上司の言うことだけを聞いていても決して稼げるようにはならない理由,https://www.youtube.com/embed/GQ81KMGD52Q
+movie,プログラマーになるためにポートフォリオは必要なのか？？,https://www.youtube.com/embed/8fDQXlO7a2U
+movie,アラサーの僕が実務経験1年でフリーランスエンジニアとして独立できた理由,https://www.youtube.com/embed/Yawrrgcvg5Y
+movie,ITスキルを身につけると人生の自由度が上がる理由,https://www.youtube.com/embed/pIjZ51xajkA
+movie,「まずは副業からやりたい」というプログラミング初心者に言いたいこと,https://www.youtube.com/embed/WuHr7lXA5ck
+movie,テストを意識した開発をしよう！,https://www.youtube.com/embed/bqpOaNMjyGM
+movie,プログラミング初心者は「転職」にこだわる必要はないと思う,https://www.youtube.com/embed/REarzWz5310
+movie,アラサーがプログラマー転職の面接で必ず聞かれる質問とその対策,https://www.youtube.com/embed/p_8ZeMsiol0
+movie,アラサーからプログラマーに転職するのは何も特別なことではない,https://www.youtube.com/embed/=ZzAOf0EFYwg
+movie,アラサーがプログラマーに転職したい理由堂々の第1位,https://www.youtube.com/embed/yrg4gTOisbg
+movie,プログラマー転職の面接をイージーモードに変える方法,https://www.youtube.com/embed/JB5Qr2-76ZU
+movie,一人でプログラミングやってて楽しいですか？,https://www.youtube.com/embed/FpljmPi8v4o
+movie,プログラミングの挫折を防ぐのは簡単,https://www.youtube.com/embed/FO7nZcj1-3U
+movie,【Ruby基礎】初心者必見！！！遅咲プログラマーの好きな食べ物を判定するプログラムの作り方,https://www.youtube.com/embed/-hhjtDmN5xg
+movie,【Ruby基礎】引数にデフォルト値を設定すると処理が柔軟になる,https://www.youtube.com/embed/iR857qDUMy8
+movie,【Ruby基礎】Railsでも使用するprivateの使い方,https://www.youtube.com/embed/XNk80CL6CJE
+movie,【Ruby基礎】インスタンス変数とは,https://www.youtube.com/embed/5tXUSOkih-0
+movie,【Ruby基礎】ifとunlessの使い分けについて,https://www.youtube.com/embed/ELGyMObkyIg
+movie,【Ruby基礎】初心者が混乱しやすいハッシュの色んな書き方,https://www.youtube.com/embed/opAIvKfo9EM
+php,Lesson 1,https://www.youtube.com/embed/qKy7X5umlqc
+php,Lesson 2,https://www.youtube.com/embed/tvzdT5_mIv0
+php,Lesson 3,https://www.youtube.com/embed/ZEh2SIKqkL0
+talk,機械学習エンジニアのとみーさん対談,https://www.youtube.com/embed/1H_Bwe1XHcE
+talk,未経験者でありながらゴリゴリロジックを書きまくるつじいさんのポテンシャルの秘密に迫ってみた,https://www.youtube.com/embed/M991A2lnj7A
+talk,転職せずにエンジニアになったサナダさんのインタビュー,https://www.youtube.com/embed/gBCsgyDqV54
+live,【初心者必見】Rails環境構築中のエラーを一緒に解決してみた,https://www.youtube.com/embed/qZEHjMtsEq0
+marketing,Lv.1：情報発信とは,https://www.youtube.com/embed/Wkorz--0xMo
+edit,Lesson 0,https://www.youtube.com/embed/wbnxfybxlYU
+writing,Lesson 1,https://www.youtube.com/embed/8WVV-gdtilE
+live,ハンズオンで学ぶTerraform超入門 -VPC~EC2作成までを自動化してみよう~,https://www.youtube.com/embed/NRSN57kQsvE
+marketing,Lv.2：集客を自動化しよう,https://www.youtube.com/embed/ClTzB1fmYyw
+edit,Lesson 1,https://www.youtube.com/embed/u3UTAz97eWg
+writing,Lesson 2,https://www.youtube.com/embed/qhZlO-qa6kk
+live,ブラックジャックプログラムコードレビュー,https://www.youtube.com/embed/ap6FtdZa_xg
+edit,Lesson 2,https://www.youtube.com/embed/v9u0pZoGKww
+writing,Lesson 3,https://www.youtube.com/embed/H6kHT3iIvdQ
