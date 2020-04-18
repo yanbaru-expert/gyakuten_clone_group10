@@ -8,7 +8,6 @@ Rails.application.routes.draw do
   resources :questions, only: [:index, :show, :create, :edit, :update]
   resources :questions do
     resource :solutions, only: [:create]
-
   resources :movies
   resources :questions
   resources :aws_texts
