@@ -9,7 +9,7 @@ class SolutionsController < ApplicationController
       flash[:success] = "回答を投稿しました。"
       redirect_to @question
     else
-      @solutions = Solution.where(question_id: @question.id)
+      @solutions = @question.solutions
       render "questions/show", question_id: @question.id
     end
   end
