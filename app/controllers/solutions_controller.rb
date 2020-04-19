@@ -7,7 +7,7 @@ class SolutionsController < ApplicationController
     @solution = @question.solutions.build(solution_params)
     if @solution.save
       flash[:success] = "回答を投稿しました。"
-      redirect_to question_path(@question.id)
+      redirect_to @question
     else
       @solutions = Solution.where(question_id: @question.id)
       render "questions/show", question_id: @question.id
