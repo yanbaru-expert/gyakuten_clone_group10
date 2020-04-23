@@ -1,0 +1,15 @@
+
+<div class="text-container">
+  <h2><center>テキスト教材</center></h2>
+  <% @texts.each.with_index(1) do |text, i| %>
+    <%= link_to( text_path(text), target: :brank) do %>
+    <div class="text">
+      <%= image_tag "image#{format("%02d", i)}.png", class: "image" %><br>
+      <div class="textmargin">
+        <%= text.title %><br>
+        【<%= text.genre %>】<br>
+      </div>
+    </div>
+    <% end %>
+  <% end %>
+</div>

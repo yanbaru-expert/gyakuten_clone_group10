@@ -1,42 +1,58 @@
 namespace :importcsv do
 
+require 'import.rb'
+
+  desc "Import All Csv Data"
+
+  task all: :environment do
+
+    # 登録レコードの削除
+    Movie.destroy_all
+    Question.destroy_all
+    AwsText.destroy_all
+    Line.destroy_all
+    Text.destroy_all
+
+    # レコードの登録
+    Movie.create!(Import.csv_data(path: 'db/csv_data/movie_data.csv'))
+    Question.create!(Import.csv_data(path: 'db/csv_data/question_data.csv'))
+    AwsText.create!(Import.csv_data(path: 'db/csv_data/aws_text_data.csv'))
+    Line.create!(Import.csv_data(path: 'db/csv_data/line_data.csv'))
+    Text.create!(Import.csv_data(path: 'db/csv_data/text_data.csv'))
+  end
+
   desc "Import Movie Csv Data"
 
   task movie: :environment do
-    list = []
-    CSV.foreach('db/csv_data/movie_data.csv', headers: true) do |row|
-      list << {
-        title: row["title"],
-        url: row["url"]
-      }
-    end
-    Movie.create!(list)
+    Movie.destroy_all
+    Movie.create!(Import.csv_data(path: 'db/csv_data/movie_data.csv'))
   end
 
   desc "Import Question Csv Data"
 
   task question: :environment do
-    list = []
-    CSV.foreach('db/csv_data/question_data.csv', headers: true) do |row|
-      list << {
-        title: row["title"],
-        detail: row["detail"]
-      }
-    end
-    Question.create!(list)
+    Question.destroy_all
+    Question.create!(Import.csv_data(path: 'db/csv_data/question_data.csv'))
   end
 
   desc "Import AwsText Csv Data"
 
   task awstext: :environment do
-    list = []
-    CSV.foreach('db/csv_data/aws_text_data.csv', headers: true) do |row|
-      list << {
-        title: row["title"],
-        content: row["content"]
-      }
-    end
-    AwsText.create!(list)
+    AwsText.destroy_all
+    AwsText.create!(Import.csv_data(path: 'db/csv_data/aws_text_data.csv'))
   end
 
+  desc "Import Line Csv Data"
+
+  task line: :environment do
+    Line.destroy_all
+    Line.create!(Import.csv_data(path: 'db/csv_data/line_data.csv'))
+  end
+
+  desc "Import Text Csv Data"
+
+  task text: :environment do
+    Text.destroy_all
+    Text.create!(Import.csv_data(path: 'db/csv_data/text_data.csv'))
+  end
 end

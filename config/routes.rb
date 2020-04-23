@@ -10,5 +10,10 @@ Rails.application.routes.draw do
     resource :solutions, only: [:create]
 
   resources :aws_texts
+    resources :movies
+    resources :questions
+    resources :aws_texts
+    resources :lines
+    resources :texts
   end
 end

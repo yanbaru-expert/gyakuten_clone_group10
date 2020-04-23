@@ -8,7 +8,7 @@ a.navbar-brand {
 }
 
 a.nav-link {
-  font-size: 125%;
+  font-size: 115%;
   margin-right: 15px;
 }
 
@@ -90,10 +90,10 @@ h3 { font-size: 120%; }
 }
 
 .code {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-size: 20px;
-    border: solid 1px #000000;
+  padding: 0.5em;
+  margin-bottom: 25px;
+  font-size: 20px;
+  border: solid 1px #000000;
 }
 
 .base-container{
@@ -142,7 +142,7 @@ h3 { font-size: 120%; }
   background-color:#FFDDFF;
 }
 
-.awstitle {
+.listtitle {
   width: 700px;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -160,20 +160,20 @@ h3 { font-size: 120%; }
   color: white;
 }
 
-.awslist:nth-child(even) {
+.listindex:nth-child(even) {
 	background: #eee;
 }
 
-.awscontent {
+.listcontent {
   line-height: 30px;
   margin-top: 30px;
 }
 
-.awscontent h2{
+.listcontent h2{
   font-weight: bold;
 }
 
-.awscontent h3{
+.listcontent h3{
   font-size: 30px;
   font-weight: bold;
   margin-top: 30px;
@@ -188,7 +188,80 @@ h3 { font-size: 120%; }
 }
 
 a.ftext {
-  font-size: 125%;
+  font-size: 115%;
   color: white;
   margin-right: 40px;
+}
+
+.line-container {
+  margin: auto;
+  font-size: 105%;
+  width: 440px;
+  margin-top: 80px;
+  line-height: 50px;
+  margin-bottom: 100px;
+}
+
+.text-container{
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-bottom: 100px;
+}
+
+.text{
+  position: relative;
+  height:350px;
+  width:370px;
+  background-color:#ffffff;
+  border:2px solid #000000;
+  border-radius: 10px;/*角の丸み*/
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 100px;
+  border-color: gray;
+  padding: 10px;
+  color: black;
+  display: inline-block;
+}
+
+.text:hover{
+  border-color: steelblue;
+}
+
+.textmargin{
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.image{
+  position: absolute;
+  border-radius: 8px 8px 0px 0px;/*角の丸み*/
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 180px;
+  width: 366px;
+}
+
+.textdetail-container{
+  width:700px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  line-height: 30px;
+}
+
+.textdetail-container h2{
+  font-weight: bold;
+}
+
+.icon{
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
 }
