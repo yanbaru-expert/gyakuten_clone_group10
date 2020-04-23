@@ -67,11 +67,13 @@ a.nav-link {
 }
 
 h3 { font-size: 120%; }
-hr { width: 710px; }
+// hr { width: 710px; }
 
 .title{
   padding-top: 80px;
-  width: 710px;
+
+  //コメントアウトにより質問項目が左寄りとなる
+  // width: 710px;
   text-align: left;
   font-size: 17px;
   line-height: 30px;
@@ -80,7 +82,8 @@ hr { width: 710px; }
 
 .detail{
   padding-top: 40px;
-  width: 710px;
+    //コメントアウトにより詳細項目が左寄りとなる
+  // width: 710px;
   font-size: 17px;
   line-height: 30px;
   margin: auto;
