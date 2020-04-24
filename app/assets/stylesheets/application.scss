@@ -91,7 +91,7 @@ h3 { font-size: 120%; }
 
 .code {
   padding: 0.5em;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   font-size: 20px;
   border: solid 1px #000000;
 }
@@ -179,12 +179,28 @@ h3 { font-size: 120%; }
   margin-top: 30px;
 }
 
+.btn {
+  padding-bottom: 3px;
+}
+
 // footer
 .footer {
-  text-align: center;
-  line-height:50px;
+  // text-align: center;
+  // line-height:50px;
+  // width: 100%;
+  // min-height: 50px;
+
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  min-height: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    padding: 0 20px;
+    font-size: 20px;
+  }
 }
 
 a.ftext {
