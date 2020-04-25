@@ -1,4 +1,6 @@
-<div class="base-container">
+
+<div class="container">
+  <section>
   <div class="title">
     <h3>【質問】</h3>
     <p><%= @question.title %></p>
@@ -6,7 +8,18 @@
   <hr>
   <div class="detail">
     <h3>【詳細】</h3>
-    <% text = @question.detail %>
-    <%= markdown(text).html_safe %>
+    <p><%= markdown(@question.detail).html_safe %></p>
   </div>
-</div>
+  <% if @solutions.present? %>
+    <% @solutions.each.with_index(1) do |solution, index| %>
+      <!-- 回答が１つしかない場合は，【回答1】でなく【回答】と表示するためにindexをnilに変更-->
+      <% index = nil if @solutions.length == 1 %>
+      <hr>
+      <div class="solution">
+        <h3>【回答<%= index %>】</h3>
+        <p><%= markdown(solution.content).html_safe %></p>
+      </div>
+    <% end %>
+  <% end %>
+</section>
+<%= render 'questions/solution_form' %>
